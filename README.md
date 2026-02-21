@@ -28,24 +28,30 @@ venv\Scripts\activate   # Windows
 ```
 
 Install dependencies:
+```bash
 pip install qiskit qiskit-aer
+```
 
 ---
 
 ### 3️⃣ Run the project
+```bash
 python test_qiskit.py
+```
 
 ---
 
 ## 🔁 Working with GitHub
-Before Coding (Get Latest Changes)
+### Before Coding (Get Latest Changes)
 
 If teammates pushed updates that you do not have:
-
+```bash
 git pull origin main
+```
 
-After Making Changes (Upload Your Work):
-
+### After Making Changes (Upload Your Work):
+```bash
 git add .
 git commit -m "Your message"
 git push
+```
